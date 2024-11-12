@@ -68,8 +68,8 @@ class Matchmaking
         $server = $this->availableGameServers[$randomServer];
 
         return [
-            'serverName' => $server->name ?? $this->getRandomServerName(),
-            'serverAddress' => $server->ipAddress
+            'serverName' => $server['name'] ?? $this->getRandomServerName(),
+            'serverAddress' => $server['ipAddress']
         ];
     }
     public function getClosestServer(): array
@@ -100,8 +100,8 @@ class Matchmaking
             }
 
             return [
-                'serverName' => $closestServer->name ?? $this->getRandomServerName(),
-                'serverAddress' => $closestServer->ipAddress,
+                'serverName' => $closestServer['name'] ?? $this->getRandomServerName(),
+                'serverAddress' => $closestServer['ipAddress'],
                 'distance' => $distance
             ];
 
