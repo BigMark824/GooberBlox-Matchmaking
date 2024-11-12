@@ -6,7 +6,7 @@ use StupidSimple\Math\DistanceCalculator;
 
 class Matchmaking
 {
-    private int $clientIpAddress;
+    private string $clientIpAddress;
 
     /*
         GameServer Structure should look like this
