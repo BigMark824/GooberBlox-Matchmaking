@@ -1,5 +1,8 @@
 # Stupid Simple Matchmaking
 PHP Library used for simple equal distance matchmaking, great for Live Service Games!
+### Installation 
+Simply run
+``composer require mathmark/stupid-simple-matchmaking`` in any PHP project setup with composer!
 
 ### StupidSimple\Game\Matchmaking
 This is where all the magic happens! All our matchmaking functionality is called here.
