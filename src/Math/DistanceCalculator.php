@@ -1,6 +1,6 @@
 <?php
 
-namespace Mathmark\Gooberblox\Math;
+namespace StupidSimple\Math;
 
 class DistanceCalculator
 {

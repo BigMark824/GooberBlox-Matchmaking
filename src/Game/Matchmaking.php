@@ -1,8 +1,8 @@
 <?php
 
-namespace Mathmark\Gooberblox\Matchmaking;
+namespace StupidSimple\Game;
 
-use  Mathmark\GooberBlox\Math\DistanceCalculator;
+use StupidSimple\Math\DistanceCalculator;
 
 class Matchmaking
 {
@@ -38,7 +38,7 @@ class Matchmaking
         return $metadata;
     }
 
-    public function getRandomServerName() : string
+    private function getRandomServerName() : string
     {
         $randomNames = [
             'Alfa',

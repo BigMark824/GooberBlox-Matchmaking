@@ -1,12 +1,12 @@
 {
-    "name": "mathmark/gooberblox-matchmaking",
+    "name": "mathmark/stupid-simple-matchmaking",
     "description": "PHP Matchmaking system, useful for Live Service games!",
     "type": "library",
     "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Gooberblox\\": "src/"
+            "StupidSimple\\": "src/"
         }
     },
     "authors": [
