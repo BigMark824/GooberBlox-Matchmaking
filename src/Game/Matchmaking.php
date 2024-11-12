@@ -88,9 +88,9 @@ class Matchmaking
             $minDistance = PHP_INT_MAX;
             $closestServer = null;
 
-            foreach ($this->availableGameServers as $server) {
-                $srvLon = $server->lon;
-                $srvLat = $server->lat;
+            foreach ( $this->availableGameServers as $server ) {
+                $srvLon = $server['lon'];
+                $srvLat = $server['lat'];
                 $distance = $distanceCalculator->CalculateDistance($userLat, $userLon, $srvLat, $srvLon);
 
                 if ($distance < $minDistance) {
