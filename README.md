@@ -55,7 +55,8 @@ $clientIp = $_SERVER['REMOTE_ADDR'];
 
 $matchmaking = new Matchmaking($clientIp, $servers);
 
-exit( $matchmaking->getClosestServer() );
+$closestServer = $matchmaking->getClosestServer();
+exit(json_encode($closestServer));
 ```
 
 #### Example Response

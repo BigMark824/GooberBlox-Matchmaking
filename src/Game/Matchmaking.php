@@ -21,7 +21,7 @@ class Matchmaking
     private ?array $availableGameServers;
 
 
-    public function __construct(int $clientIpAddress, ?array $availableGameServers = null)
+    public function __construct(string $clientIpAddress, ?array $availableGameServers = null)
     {
         $this->clientIpAddress = $clientIpAddress;
         $this->availableGameServers = $availableGameServers;
