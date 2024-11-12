@@ -75,7 +75,7 @@ For example:
 {
     "serverName" : "US-PROD-1",
     "serverAddress" : "192.168.1.10",
-    "distance" : "0.00" // measured in miles
+    "distance" : "0.00" # measured in miles
 }  
 ```
 
