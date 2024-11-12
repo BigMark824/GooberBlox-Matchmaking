@@ -1,0 +1,18 @@
+{
+    "name": "mathmark/gooberblox-matchmaking",
+    "description": "PHP Matchmaking system, useful for Live Service games!",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gooberblox\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MathMark825"
+        }
+    ],
+    "require": {}
+}
